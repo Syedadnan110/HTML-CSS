@@ -9,6 +9,11 @@ header{
     height: 600px;
 
 }
+footer{
+    background-color: #000;
+    height: 300px;
+
+}
 *{
     padding: 0;
     margin: 0;
@@ -78,7 +83,6 @@ span{
     margin-top: 20px;
     color: #fff;
     font-family: fantasy;
- 
     padding: 0.8rem 2rem;
     font-weight: 500;
     border: 2px solid transparent ;
@@ -97,4 +101,79 @@ span{
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     
+}
+
+.boxes{
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-column-gap: 70px;
+     
+   
+ } 
+
+
+ .project-title{
+    font-family: fantasy;
+    font-size: 30px ;
+    text-decoration: aquamarine solid underline ;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+ 
+.box-design{
+    border: 3px solid #000;
+    border-radius: 20px;
+    padding: 4rem 6rem;
+    background-color: transparent;
+    font-family: fantasy;
+    outline: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box1:hover{
+    color: #fff;
+    text-decoration: darkturquoise underline;
+    background:#000;
+    border-color: #000;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+ }
+.box2:hover{
+    text-decoration: darkturquoise underline;
+    color: #fff;
+    background:#000;
+    border-color: #000;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+
+ }
+.box3:hover{
+    text-decoration: darkturquoise underline;
+    color: #fff;
+    background:#000;
+    border-color: #000;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+ }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+.footer .bottom{    
+
+    align-items: center;
+
+}
+
+.footer nav{
+    color: #fff;
+
 }
